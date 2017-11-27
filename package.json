@@ -1,0 +1,45 @@
+{
+  "name": "mantiz-backend-theme",
+  "version": "1.0.0",
+  "description": "Backend theme for Mantiz Project",
+  "main": "dist/js/app",
+  "style": "dist/css/app.css",
+  "sass": "src/app/app.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villasboas/mantiz-backend-theme.git"
+  },
+  "keywords": [
+    "mantiz",
+    "bootstrap",
+    "theme"
+  ],
+  "author": "villasboas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/villasboas/mantiz-backend-theme/issues"
+  },
+  "homepage": "https://github.com/villasboas/mantiz-backend-theme#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "express": "^4.16.2",
+    "express-nunjucks": "^2.2.3",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.2.1",
+    "laravel-elixir": "^6.0.0-16",
+    "laravel-elixir-livereload": "^1.1.6",
+    "laravel-elixir-webpack-official": "^1.0.10",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "edge.js": "^1.1.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "replace-ext": "^1.0.0"
+  }
+}
